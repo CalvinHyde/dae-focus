@@ -15,7 +15,7 @@ export default function App() {
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
-  console.log("dae")
+  console.log("dae12")
 
   const addFocusHistorySubjectWithState = (subject, status) => {
     setFocusHistory([...focusHistory, { subject, status }]);
